@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 public class converter extends JFrame {
 
-
+//AFNAN
         JLabel taka,dollar;
         JTextField taka_t, dollar_d;
         JButton b1, b2, b3;
@@ -48,7 +48,7 @@ public class converter extends JFrame {
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-
+//AFNAN
                 double d2 = Double.valueOf(dollar_d.getText());
                 // Converting dollar to taka
                 double d3 = (d2 * 107.05);
